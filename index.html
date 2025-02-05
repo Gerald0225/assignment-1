@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body Styling */
+        body {
+            background-color: #f4f4f4;
+            
+        }
+
+        /* Header Styling */
+        header {
+            background-image: url(images/Space☆Cowboy.gif);
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+            background-size: cover
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgb(28, 28, 29);
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        /* Main Content Layout */
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1400px;
+            margin: auto;
+            background-color: rgb(0, 0, 0);
+        }
+
+        /* Content Boxes */
+        section {
+            background-color: rgb(28, 28, 29);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* About Me Section */
+        .about {
+            max-width: 400px;
+        }
+
+        .about h2, .content h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .image-box {
+            background-color:rgb(28, 28, 29);
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        img{
+            border-radius: 5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                align-items: center;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CID KAGENOU</h1>
+        <p style="font-size: 18px">Kage no Jitsuryokusha ni Naritakute!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="https://the-eminence-in-shadow.fandom.com/wiki/Cid_Kagenou">Cid</a></li>
+            <li><a href="https://www.mangaread.org/manga/the-eminence-in-shadow/">Manga</a></li>
+            <li><a href="https://myanimelist.net/anime/48316/Kage_no_Jitsuryokusha_ni_Naritakute?cat=anime">Anime</a></li>
+            <li><a href="https://myanimelist.net/anime/48316/Kage_no_Jitsuryokusha_ni_Naritakute/characters">Characters</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="about">
+            <p>"Once you decide where you're standing is the peak, you stop moving."</p>
+            <h2>- Shadow</h2>
+            <div class="image-box"><img src="images/I Need More Power Animefan27 GIF – I Need More Power Animefan27 Kagenou Cid – discover and share GIFs.gif" height = "250px" width="100%"/></div>
+        </section>
+
+        <section class="content">
+            <h2>John Smith</h2>
+            <p>John Smith serves as Cid Kagenou's current alter ego, granting him unrestricted use of his abilities and powers; however, faced with the risk of confrontation by members of his organization, Shadow Garden, he adopts an even more secretive approach.</p>
+            <div class="image-box"> <img src="images/cid-kagenou-john-smith.gif" height = "250px" width = "100%"></div>
+        </section>
+    </main>
+
+</body>
+</html>
